@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Body Works / Health and Fitness</title>
+
+   <!--font link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--header starts-->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#home" class="logo"><span>Body works,</span>Health and Fitness</a>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about">About us</a>
+            <a href="#service">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact us</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id =search-btn></i>
+            <i class="fas fa-user" id =login-btn></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+    <!--header ends-->
+
+    <!-- login form container -->
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>Forgot password? <a href="#">Click here</a></p>
+            <p>Don't have an account? <a href="#">Register now</a></p>
+        </form>
+    </div>
+    <!-- login form ends -->
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Let's Train Hard Today!</h3>
+            <p>You don't find will power, you create it</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="vid-5.mp4"></span>
+            <span class="vid-btn" data-src="vid-2.mp4"></span>
+            <span class="vid-btn" data-src="vid-3.mp4"></span>
+            <span class="vid-btn" data-src="vid-4.mp4"></span>
+            <span class="vid-btn" data-src="vid-1(re).mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="vid-5.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </section>
+    <!-- home sections ends -->
+
+
+    <!-- about us section starts  -->
+    <section class="about" id="about">
+        <h1 class="heading">
+            <span>A</span>
+            <span>b</span>
+            <span>o</span>
+            <span>u</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>u</span>
+            <span>s</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/image1.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>What makes us special?</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Numquam unde facere illum doloremque voluptatem assumenda voluptates quisquam corrupti dolorem aspernatur, 
+                    quasi quia tempora. Corrupti recusandae modi laborum, quis exercitationem excepturi.
+                </p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste tenetur sed quisquam id quaerat culpa, officiis dolores voluptatibus facere!
+                </p>
+                <a href="#" class="btn">Learn more</a>
+            </div>
+        </div>
+    </section>
+    <!-- about us section ends  -->
+
+    <!-- Services section starts  -->
+    <section class="services" id="service">
+        <h1 class="heading">
+            <span>S</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Affordable traning</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quam ipsum at nulla dolorem doloremque et rerum! Voluptates.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-heartbeat"></i>
+                <h3>Fitness</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quam ipsum at nulla dolorem doloremque et rerum! Voluptates.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-walking"></i>
+                <h3>Mass gaining/ Weight loss</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quam ipsum at nulla dolorem doloremque et rerum! Voluptates.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-spa"></i>
+                <h3>Sauna</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quam ipsum at nulla dolorem doloremque et rerum! Voluptates.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-stopwatch"></i>
+                <h3>Personal Coach</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quam ipsum at nulla dolorem doloremque et rerum! Voluptates.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-apple-alt"></i>
+                <h3>Supplement Diets</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quam ipsum at nulla dolorem doloremque et rerum! Voluptates.</p>
+            </div>
+
+        </div>
+    </section>
+    <!-- Services section ends  -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+        <h1 class="heading">
+            <span>G</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="image/gallery1.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery2.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery3.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery4.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery5.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery6.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery7.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery8.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, non.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery9.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="image/gallery10.jpg" alt="">
+                <div class="content">
+                    <h3>Lorem ipsum.</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <a href="#" class="btn">see more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends  -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+        <h1 class="heading">
+            <span>C</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+            <span class="space"></span>
+            <span>u</span>
+            <span>s</span>
+        </h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="image/contact.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="text" placeholder="email">
+                </div>
+
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+
+            </form>
+            
+        </div>
+
+    </section>
+    <!-- contact section ends  -->
+
+    <!-- footer section starts  -->
+
+    <!-- footer section ends  -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <a href="#home" class="logo"><span>Body works,</span>Health and Fitness</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, qui.</p>
+                <div class="share">
+                    <a href="https://www.facebook.com/bwhfitness/" class="fab fa-facebook-f"></a>
+                    <a href="https://www.youtube.com/channel/UCq_ydsVWroqetIIyYjdRV2g" class="fab fa-youtube"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>Quick links</h3>
+                <a href="#home"> Home </a>
+                <a href="#about"> About us </a>
+                <a href="#service"> Services </a>
+                <a href="#gallery"> Gallery </a>
+                <a href="#contact"> Contact us </a>
+            </div>
+
+            <div class="box">
+                <h3>Contact info</h3>
+                <p><i class="fas fa-map"></i> Satdobato, Salesberry complex Lalitpur, Nepal </p>
+                <p><i class="fas fa-phone"></i> 984-1486999 </p>
+                <p><i class="fas fa-envelope"></i> email_bwhfit@gmail.com </p>
+                <p><i class="fas fa-clock"></i> [6:00 AM - 11:00 AM]  [4:30 PM - 8:00 PM] </p>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- custom js file link-->
+   <script src="script.js"></script>
+</body>
+
+</html>
